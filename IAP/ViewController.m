@@ -146,6 +146,7 @@
                 NSLog(@"取得完了...");
                 
                 NSLog(@"GitStage1.");
+                NSLog(@"GitStage2.");
                 
             }];
         }];
