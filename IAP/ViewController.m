@@ -144,6 +144,9 @@
             [[NSOperationQueue mainQueue] addOperationWithBlock:^{
                 [self.tableView reloadData];
                 NSLog(@"取得完了...");
+                
+                NSLog(@"GitStage1.");
+                
             }];
         }];
     }];
